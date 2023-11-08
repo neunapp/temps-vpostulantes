@@ -1,9 +1,9 @@
 <template>
-  <div class="columns" style="width: 100%;">
-    <div class="column is-half">
+  <div class="container is-fullhd">
+    <div class="card">
       <h3>Empleados Registrados</h3>
       <div class="table-container">
-        <table class="table is-hoverable is-bordered">
+        <table class="table is-striped is-fullwidth">
           <thead>
             <th>#</th>
             <th>Nombres</th>
@@ -25,7 +25,7 @@
         </table>
       </div>
     </div>
-    <div class="column">
+    <div class="card">
       <h4>Detalle Empleados</h4>
       <div class="box">
         <article class="media">
